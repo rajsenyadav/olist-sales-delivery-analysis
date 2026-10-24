@@ -1,0 +1,16 @@
+﻿# Ignore raw data directory and archives
+data/
+raw_data/
+*.csv
+*.zip
+
+# Ignore local database exports / files
+*.db
+*.sqlite3
+
+# Ignore OS & editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+__pycache__/
+.env
